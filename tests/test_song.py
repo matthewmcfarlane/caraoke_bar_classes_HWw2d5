@@ -15,5 +15,3 @@ class TestSong(unittest.TestCase):
         expected = 287
         actual = self.song.duration
         self.assertEqual(expected, actual)
-
-    

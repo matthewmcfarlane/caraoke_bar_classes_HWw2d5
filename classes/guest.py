@@ -4,4 +4,4 @@ class Guest:
         self.age = age
     
     def sing_song(self, song):
-        return f"I am singing {song.name}"
+        return f'I am singing {song.name}'
