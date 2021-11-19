@@ -88,3 +88,5 @@ class TestRoom(unittest.TestCase):
         self.room.add_song(song3)
         self.room.remove_all_songs()
         self.assertEqual(0, self.room.song_count())
+
+    
